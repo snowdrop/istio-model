@@ -1,16 +1,16 @@
 # Instructions
 
 This project generates from the `istio/api` the Java classes using the Google Protobuf `protoc` converter. The tool can be installed
-locally using a brew command `brew install protobuf`
+locally using this brew command `brew install protobuf`.
 
-If Golang is already installed on you machine, then get the Google Protobuf project as it is used to convert different Google types
-such as `ExtensionRegistry, ExtensionRegistryLite, MEssageOrBuilder, ...`
+If Golang is already installed on you machine, then download the Google Protobuf project as it is used to convert different Google types
+such as `ExtensionRegistry, ExtensionRegistryLite, MessageOrBuilder, ...`
 
 ```bash
 go get github.com/google/protobuf
 ```
 
-Next, clone the istio api project which contains the definition of the mixer. broker and proxy types
+Next, clone the istio api project which contains the definition of the mixer, broker and proxy types
 
 ```bash
 cd /path/to/go/workspace/src/istio.io
