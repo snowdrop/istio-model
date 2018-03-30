@@ -1,3 +1,8 @@
+# DEPRECATED: please use https://github.com/snowdrop/istio-java-api instead.
+
+
+---
+
 # Instructions
 
 This project generates from the `istio/api` the Java classes using the Google Protobuf `protoc` converter. The tool can be installed
